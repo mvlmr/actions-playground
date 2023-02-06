@@ -1,0 +1,13 @@
+name: "Exercicio"
+
+on:
+  push:
+  
+jobs:
+  print_exercicio_ubuntu:
+    name: Exercicio Ubuntu!
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Exercicio Ubuntu!
+        run: echo 'date'
