@@ -12,7 +12,7 @@ jobs:
       - name: Exercicio Ubuntu!
         run: 'date'
         
-    print_exercicio_windows:
+  print_exercicio_windows:
     name: Exercicio Windows!
     runs-on: windows-latest
     
@@ -20,7 +20,7 @@ jobs:
       - name: Exercicio Windows!
         run: 'date'
         
-    print_exercicio_macos:
+  print_exercicio_macos:
     name: Exercicio MacOs!
     runs-on: macos-latest
     
