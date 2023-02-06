@@ -31,6 +31,11 @@ jobs:
   print_ultimo_desafio:
     name: Ultimo Desafio!
     runs-on: ubuntu-latest
+    
+    steps:
+      - name: Ultimo Desafio!
+        run: 'date'
+        
     needs:
       - print_exercicio_ubuntu
       - print_exercicio_windows
