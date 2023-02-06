@@ -11,3 +11,19 @@ jobs:
     steps:
       - name: Exercicio Ubuntu!
         run: 'date'
+        
+    print_exercicio_windows:
+    name: Exercicio Windows!
+    runs-on: windows-latest
+    
+    steps:
+      - name: Exercicio Windows!
+        run: 'date'
+        
+    print_exercicio_macos:
+    name: Exercicio MacOs!
+    runs-on: macos-latest
+    
+    steps:
+      - name: Exercicio MacOs!
+        run: 'date'
