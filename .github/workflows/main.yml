@@ -10,4 +10,4 @@ jobs:
     
     steps:
       - name: Exercicio Ubuntu!
-        run: echo 'date'
+        run: 'date'
